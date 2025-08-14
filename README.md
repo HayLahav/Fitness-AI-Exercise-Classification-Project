@@ -1,5 +1,4 @@
 # Fitness AI Exercise Classification System
-*A Deep Learning Solution for Automated Workout Recognition*
 
 <img width="215" height="241" alt="train2" src="https://github.com/user-attachments/assets/f4915d48-fd0b-4fe7-9a96-2fbb9498fd27" />
 
