@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  fitness-ai-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fitness-ai-classifier
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount model directory
+      - ./Saved_model:/app/Saved_model:ro
+      # Mount data directory (optional)
+      - ./data:/app/data:ro
+    environment:
+      - MODEL_SAVE_PATH=/app/Saved_model
+      - DATASET_PATH=/app/data
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
