@@ -3,7 +3,7 @@
 <img width="215" height="241" alt="train2" src="https://github.com/user-attachments/assets/f4915d48-fd0b-4fe7-9a96-2fbb9498fd27" />
 
 
-## 📌 Overview
+##  Overview
 This project presents an AI-powered system that automatically recognizes **22 different exercise types** from workout videos.  
 It combines **pose estimation**, **biomechanical feature extraction**, and **sequence modeling** to deliver robust, real-world exercise classification — even in challenging conditions such as varying lighting, camera angles, and backgrounds.
 
@@ -14,7 +14,7 @@ The model is designed for:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - **Source:** Public workout videos from YouTube  
 - **Categories:** 14 upper body, 6 lower body, and 2 core exercises  
 - **Diversity:** Multiple environments, camera angles, and participant demographics  
@@ -22,7 +22,7 @@ The model is designed for:
 
 ---
 
-## 📈 Key Results
+##  Key Results
 - **Test Accuracy:** 79.1%  
 - **Balanced Accuracy:** 72.8%  
 - **Cohen’s Kappa:** 0.792 (substantial agreement)  
@@ -33,7 +33,7 @@ The system demonstrates strong performance for most exercises and provides reali
 
 ---
 
-## 🚀 How It Works (High-Level)
+##  How It Works (High-Level)
 1. **Pose Estimation** – Detect human body landmarks from video frames using MediaPipe  
 2. **Feature Extraction** – Calculate biomechanical features such as joint angles, distances, and movement velocities  
 3. **Sequence Analysis** – Model temporal patterns in exercise execution  
@@ -41,7 +41,7 @@ The system demonstrates strong performance for most exercises and provides reali
 
 ---
 
-## 💡 Key Contributions
+##  Key Contributions
 - Handles **real-world video variability** without requiring controlled environments  
 - Addresses **class imbalance** using focal loss and class weighting  
 - Uses **confidence-based filtering** to remove low-quality pose detections  
@@ -49,7 +49,7 @@ The system demonstrates strong performance for most exercises and provides reali
 
 ---
 
-## 🔮 Future Directions
+##  Future Directions
 - Add **vision-language models** for context-aware recognition  
 - Combine **pose data with visual cues** for better equipment-based classification  
 - Deploy on **mobile and edge devices** for real-time exercise tracking  
@@ -57,6 +57,6 @@ The system demonstrates strong performance for most exercises and provides reali
 
 ---
 
-## 📬 Contact
+##  Contact
 **Author:** Hay Lahav  
-📧 Email: haylahav1@gmail.com
+ Email: haylahav1@gmail.com
